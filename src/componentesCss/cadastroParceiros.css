@@ -1,0 +1,100 @@
+/* Estilo para o formulário */
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.submit-button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilos para os dropdowns */
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os dropdowns */
+}
+
+.custom-dropdown-container {
+    position: relative;
+    display: block;
+}
+
+.selected-uf, .selected-city {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    width: 300px; /* Ajuste a largura conforme necessário */
+    margin-left: 10px;
+}
+
+.selected-uf-name, .selected-city-name {
+    margin-left: 10px;
+}
+
+.selected-flag, .option-flag {
+    width: 30px; /* Ajuste o tamanho da bandeira conforme necessário */
+    height: 30px; /* Ajuste o tamanho da bandeira conforme necessário */
+    margin-right: 5px;
+    display: inline-block;
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.dropdown-option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-option:hover {
+    background-color: #f0f0f0;
+}
+
+.form-title {
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço inferior para separar dos campos */
+    white-space: nowrap;
+}
+
+.form-group input, .submit-button {
+    padding: 10px; /* Ajuste o padding conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+    width: 100%; /* Garante que todos ocupem a largura do container */
+    box-sizing: border-box; /* Evita que o padding afete a largura total */
+}

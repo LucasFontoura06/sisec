@@ -1,0 +1,60 @@
+/* cidadeMunicipio.css */
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os dropdowns */
+    margin-left: 10px;
+}
+
+.custom-dropdown-container {
+    position: relative;
+    display: block;
+}
+
+.selected-uf, .selected-city {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: 300px; /* Ajuste a largura conforme necessário */
+}
+
+.selected-uf-name, .selected-city-name {
+    margin-left: 10px;
+}
+
+.selected-flag, .option-flag {
+    width: 30px; /* Ajuste o tamanho da bandeira conforme necessário */
+    height: auto;
+    margin-right: 5px;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    max-height: 300px; /* Ajuste a altura máxima do dropdown conforme necessário */
+    overflow-y: auto;
+}
+
+.dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-option:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,35 @@
+.dropdown-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os dropdowns */
+    margin-left: 10px;
+}
+
+.custom-dropdown-container {
+    position: relative;
+    display: block;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.save-button {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}

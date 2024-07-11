@@ -1,0 +1,30 @@
+.logradouro-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os elementos */
+    margin-left: 10px;
+}
+
+.logradouro-select-container {
+    position: relative;
+    display: block;
+}
+
+#logradouro-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* Ajuste a largura conforme necessário */
+}
+
+h1, h2 {
+    margin-left: 10px;
+}
+
+.descricao-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    margin-left: 10px;
+}

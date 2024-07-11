@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    text-shadow: #000 1px 1px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-image: url('../assets/images/Imagem2.png'); */
+    background: linear-gradient(#5665bb, #000000);
+    background-size: cover;
+    background-position: center;
+}
+
+.container2 {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.container2 h1{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.container2 .input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input-field input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 25px;
+}
+
+.input-field input::placeholder{
+    color: #fff;
+}
+
+.input-field .icon {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+}
+
+.container2 .recall-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.recall-forget label{
+    color: #fff;
+}
+
+.recall-forget input{
+    margin-right: 5px;
+}
+
+.recall-forget a, .signup-link p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.recall-forget a::hover, .signup-link p a::hover{
+    text-decoration: underline;
+}
+
+.container2 button{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.container2 .signup-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.container2 .signup-link p{
+    color: #fff;
+}
+
+.container2 .signup-link a{
+    color: #2f65fa;
+}
